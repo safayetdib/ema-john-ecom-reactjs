@@ -1,0 +1,24 @@
+.header {
+	background-color: #1c2b35;
+	padding: 20px;
+}
+
+.header nav {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.header nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	margin-left: 40px;
+}
+
+.header nav a:hover {
+	color: orange;
+}
