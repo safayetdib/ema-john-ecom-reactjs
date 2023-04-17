@@ -1,0 +1,107 @@
+.form-container {
+	max-width: 350px;
+	margin: auto;
+	margin-top: 6rem;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 2rem;
+	box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.form-container h2 {
+	text-align: center;
+	font-weight: 400;
+}
+
+.form-control {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
+.form-control label {
+	font-size: small;
+	margin-left: 0.6rem;
+}
+
+.form-control input {
+	padding: 12px;
+	border-radius: 4px;
+	outline: none;
+	border: 1px solid #ccc;
+	margin-top: 0.3rem;
+}
+
+.form-container .login-btn {
+	width: 100%;
+	padding: 12px;
+	font-size: medium;
+	border: none;
+	border-radius: 4px;
+	background-color: #ff99004d;
+	margin-top: 2rem;
+}
+
+.form-container .new-account {
+	width: 100%;
+	display: flex;
+	gap: 8px;
+	font-size: small;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.new-account a {
+	text-decoration: none;
+	color: #ff9900;
+}
+
+.form-container .or-line {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	color: #b4b3b3;
+	margin-top: 1.5rem;
+}
+
+.or-line hr {
+	width: 40%;
+	border: 1px solid #ccc;
+}
+
+.form-container .google-btn {
+	width: 100%;
+	font-size: small;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: white;
+	margin-top: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.google-btn img {
+	width: 40px;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.error-text {
+	color: red;
+	font-size: small;
+	margin-top: 10px;
+	background-color: #f3f3f3;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
