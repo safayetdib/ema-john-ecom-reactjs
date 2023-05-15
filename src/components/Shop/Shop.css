@@ -13,3 +13,17 @@
 	flex-wrap: wrap;
 	gap: 20px;
 }
+
+.pagination {
+	text-align: center;
+	margin: 5rem 1rem;
+}
+.pagination button {
+	padding: 5px 10px;
+	margin-right: 5px;
+}
+
+.selected {
+	background-color: gray;
+	border: 3px solid black;
+}
